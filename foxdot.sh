@@ -58,7 +58,7 @@ sudo make install
 
 sudo ldconfig
 
-sudo apt-get install sc3plugins
+sudo apt-get install sc3-plugins
 
 echo Agregando usuario al grupo audio
 
