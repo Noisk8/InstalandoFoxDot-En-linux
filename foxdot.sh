@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Bienvenidos al script para instalar Foxdot en Ubuntu
+echo Bienvenidos al script para instalar Foxdot en Linux
 
 echo Instalando dependencias
 
@@ -58,7 +58,13 @@ sudo make install
 
 sudo ldconfig
 
+echo  Instalando sc3-plugins
+
 sudo apt-get install sc3-plugins
+
+echo instalando qjackctl
+
+sudo apt-get install qjackctl
 
 echo Agregando usuario al grupo audio
 
@@ -68,6 +74,6 @@ echo Rectificando paquetes
 
 sudo apt-get -f install
 
-echo sigue los pasos http://foxdot.org/installation/
+echo sigue los pasos en → → → → http://foxdot.org/installation/
 
 
