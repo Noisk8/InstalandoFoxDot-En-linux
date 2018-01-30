@@ -4,7 +4,7 @@ echo Bienvenidos al script para instalar Foxdot en Linux
 
 echo Instalando dependencias
 
-echo Instalando pyhton-tk & git
+echo Instalando pyhton-tk y git
 
 sudo apt-get update
 
