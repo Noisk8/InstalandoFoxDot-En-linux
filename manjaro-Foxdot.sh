@@ -29,6 +29,3 @@ echo ELIGE LA OPCION 1
 yaourt supercollider
 
 
-
-echo paila 
-
