@@ -53,6 +53,7 @@ Abrimos Supercollider   y ejecutamos las siguientes lineas
 ***
 
 > Quarks.install("https://github.com/Qirky/FoxDotQuark.git")
+
 > Quarks.install("https://github.com/supercollider-quarks/BatLib.git")
 
 ***
