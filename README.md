@@ -1,4 +1,4 @@
-# InstalandoFoxDot
+# Instalando FoxDot en linux
 ____________________________________________________________________________________
 Script para instalar FoxDot en sistemas operativos GNU/linux basados en Debian ubuntu y ArchLinux
 
