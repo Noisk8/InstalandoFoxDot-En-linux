@@ -7,75 +7,91 @@ FoxDot, se creó en 2015 para intentar abrir las vías de Live Coding para los u
 
 El script está escrito en bash y brinda la posibilidad de simplificar el proceso de instalación con solo ejecutar el archivo.sh, este script esta disponible para Sistemas operativos GNU/linux compatibles con debian, ubuntu y ArchLinux
 
+***
+
+## Guía de utilización 
+
+***
+
+### 1er paso
 
 Clonamos el repositorio
 
-git clone https://github.com/Noisk8/InstalandoFoxDot-En-linux
+> git clone https://github.com/Noisk8/InstalandoFoxDot-En-linux
 
-Vamos a la carpeta donde está el script
+***
+### 2do paso 
 
-cd InstalandoFoxDot-En-linux/
+accedemos a la carpeta que clonamos y le damos los permisos al script 
 
 Damos los permisos para hacer ejecutable el script
 
-chmod +x foxdot.sh
+> cd InstalandoFoxDot-En-linux/
 
-y lo ejecutamos 
+Damos los permisos para hacer ejecutable el script
 
-./foxdot.sh
+> chmod +x foxdot.sh
+
+***
+### 3er paso 
+
+ejecutar el script
+> ./foxdot.sh
+
+***
+Nota: En algunas distribuciones basadas en ubuntu como por ejemplo mint o xubuntu con el comando sudo apt-get install supercollider 
+se instala la versión 3.6 con la que es imposible que tidal funcione, si este es tu caso puedes utilizar este script para compilar una versión posterior.
+
+[Supercollider script](https://noiskate.hotglue.me/?Sc/)
+
+***
 
 Despues de ejecutar el script debemos de hacer un paso más, se trata de instalar los quarks a través de Supercollider
 
 Abrimos Supercollider   y ejecutamos las siguientes lineas 
 
--------------------------------------------------------------------------------------------------------------------------
-Quarks.install("https://github.com/Qirky/FoxDotQuark.git")
-Quarks.install("https://github.com/supercollider-quarks/BatLib.git")
--------------------------------------------------------------------------------------------------------------------------
+***
+
+> Quarks.install("https://github.com/Qirky/FoxDotQuark.git")
+> Quarks.install("https://github.com/supercollider-quarks/BatLib.git")
+
+***
 
 Ahora empezara a correr los comandos para instalar foxdot.
+***
 
-__________________________________________________________________________________________________________________________
-  Para iniciar Foxdot deben de tener en cuenta los siguientes pasos...
- __________________________________________________________________________________________________________________________
+ ## Para iniciar Foxdot deben de tener en cuenta los siguientes pasos...
  
- --------------------------------------------------------------------------------------------------------------------------
- 1 Iniciar el servidor de jack.
+ ***
+ ### 1 Iniciar el servidor de jack.
  
- jackd -d alsa 
- ---------------------------------------------------------------------------------------------------------------------------
+ > jackd -d alsa 
  
- ---------------------------------------------------------------------------------------------------------------------------
- 2 Abrir Supercollider y ejecutamos la siguiente linea 
+ ***
+ ### 2 Abrir Supercollider y ejecutamos la siguiente linea 
  
- FoxDot.start
- ---------------------------------------------------------------------------------------------------------------------------
+ > FoxDot.start
  
- ---------------------------------------------------------------------------------------------------------------------------
- 3 Entramos a la carpeta de Foxdot 
+ ***
  
- cd FoxDot/
+### 3 Entramos a la carpeta de Foxdot 
+ 
+ > cd FoxDot/
  
  Estando allí ejecutamos el siguiente comando para arir el interprete 
  
- python -m FoxDot
-----------------------------------------------------------------------------------------------------------------------------
+ > python -m FoxDot
 
+***
 
-NOTA: debido a  foxdot solo funciona con versiones de supercollider superiores a la 3.7 y esta en algunas ocaciones no está disponble vía apt, se anexa el bloque de compliación de la version 3.8 de supercollider 
+Hecho x Noisk8 2017-2018
 
-Utiliza este script para instalar Supercollider 3.8 por código fuente. >> https://noiskate.hotglue.me/?Sc/
+Fuentes → 
 
-Hecho x Noisk8 17/Enero/2017
+[Foxdot page](http://foxdot.org/installation/)
 
-Fuentes → http://foxdot.org/installation/
-
-→ https://github.com/supercollider/supercollider/wiki/Installing-SuperCollider-from-source-on-Ubuntu
+[Foro](https://github.com/supercollider/supercollider/wiki/Installing-SuperCollider-from-source-on-Ubuntu)
   
-
-
-
-
 
 
 Versión ßeta 4ever.
