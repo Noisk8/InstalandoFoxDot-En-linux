@@ -30,9 +30,47 @@ sudo python setup.py install
 
 echo Instalando Supercollider [NECESARIO PARA FOXDOT]
 
-sudo apt-get install supercollider
+sudo apt-get install libsndfile1-dev 
+sudo apt install libasound2-dev 
+sudo apt install libavahi-client-dev 
+sudo apt install libicu-dev 
+sudo apt install libreadline6-dev
+sudo apt install libfftw3-dev libxt-dev 
+sudo apt install libudev-dev 
+sudo apt install libcwiid-dev 
+sudo apt install g++
+sudo apt install cmake 
+sudo apt install qt5-default
+sudo apt install qt5-qmake
+sudo apt install qttools5-dev
+sudo apt install qttools5-dev-tools
+sudo apt install qtdeclarative5-dev 
+sudo apt install libqt5webkit5-dev 
+sudo apt install qtpositioning5-dev
+sudo apt install libqt5sensors5-dev l
+sudo apt install ibqt5opengl5-dev 
+sudo apt install jackd
+sudo apt install libjack0 
+sudo apt install build-essential 
+sudo apt install libqt4-dev 
+sudo apt install libqtwebkit-dev 
+sudo apt install libjack-dev 
+sudo apt install libsndfile1-dev 
+sudo apt install libasound2-dev 
+sudo apt install libavahi-client-dev 
+sudo apt install libicu-dev 
+sudo apt install libreadline6-dev
+sudo apt install libfftw3-dev 
+sudo apt install libxt-dev 
+sudo apt install libcwiid-dev 
+sudo apt install pkg-config 
+sudo apt install subversion 
+sudo apt install libudev-dev
+sudo apt install libsndfile-dev
+sudo apt install libx11-dev
+sudo apt install libxt-dev
 
-sudo apt-get install libsndfile1-dev libasound2-dev libavahi-client-dev libicu-dev libreadline6-dev libfftw3-dev libxt-dev libudev-dev libcwiid-dev pkg-config git cmake qt5-default qt5-qmake qttools5-dev qttools5-dev-tools qtdeclarative5-dev libqt5webkit5-dev qtpositioning5-dev libqt5sensors5-dev libqt5opengl5-dev jackd libjack0 build-essential libqt4-dev libqtwebkit-dev libjack-dev libsndfile1-dev libasound2-dev libavahi-client-dev libicu-dev libreadline6-dev libfftw3-dev libxt-dev libcwiid-dev pkg-config subversion 
+
 
 wget https://github.com/supercollider/supercollider/releases/download/Version-3.8.0/SuperCollider-3.8.0-Source-linux.tar.bz2
 
@@ -69,5 +107,3 @@ echo Rectificando paquetes
 sudo apt-get -f install
 
 echo sigue los pasos en → → → → http://foxdot.org/installation/
-
-
