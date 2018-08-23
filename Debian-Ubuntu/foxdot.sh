@@ -34,7 +34,7 @@ sudo python setup.py install
 sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
 sudo apt-get update
 sudo apt-get install musescore
-sudo pip install midiutil
+sudo pip install MIDIUtil
 
 #SuperCollider
 echo Instalando Supercollider [NECESARIO PARA FOXDOT]
