@@ -30,6 +30,12 @@ cd FoxDot
 
 sudo python setup.py install
 
+#Dependencias para heramienta de voz
+sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
+sudo apt-get update
+sudo apt-get install musescore
+sudo pip install midiutil
+
 #SuperCollider
 echo Instalando Supercollider [NECESARIO PARA FOXDOT]
 #DependenciasSuperCollider
