@@ -22,20 +22,6 @@ sudo pip install FoxDot
 
 sudo pip install --upgrade pip
 
-echo descargando Foxdot
-
-git clone https://github.com/Qirky/FoxDot.git
-
-cd FoxDot
-
-sudo python setup.py install
-
-#Dependencias para heramienta de voz
-sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
-sudo apt-get update
-sudo apt-get install musescore
-sudo pip install MIDIUtil
-
 #SuperCollider
 echo Instalando Supercollider [NECESARIO PARA FOXDOT]
 #DependenciasSuperCollider
