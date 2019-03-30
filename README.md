@@ -58,7 +58,7 @@ Abrimos Supercollider   y ejecutamos las siguientes lineas
 
 ***
 
-Ahora empezara a correr los comandos para instalar foxdot.
+Ahora empezara a correr los comandos para poner a funcionar foxdot.
 ***
 
  ## Para iniciar Foxdot deben de tener en cuenta los siguientes pasos...
