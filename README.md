@@ -24,8 +24,6 @@ Clonamos el repositorio
 
 accedemos a la carpeta que clonamos y le damos los permisos al script 
 
-Damos los permisos para hacer ejecutable el script
-
 > cd InstalandoFoxDot-En-linux/
 
 Damos los permisos para hacer ejecutable el script
