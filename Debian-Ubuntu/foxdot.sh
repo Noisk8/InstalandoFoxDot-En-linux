@@ -4,23 +4,27 @@ echo Bienvenidos al script para instalar Foxdot en Linux
 
 echo Instalando dependencias
 
-echo Instalando pyhton-tk y git
+echo Instalando pyhton3-tk y git
 
-sudo apt-get update
+sudo apt update
 
-sudo apt-get install git
+sudo apt install git
 
-sudo apt-get install python-tk
+sudo apt install python3
 
-sudo apt-get install python-setuptools
+sudo apt install python3-tk
 
-sudo easy_install pip
+sudo apt install python3-setuptools
 
-sudo apt-get install python-pip
+sudo easy_install pip3
 
-sudo pip install FoxDot
+sudo apt-get install python3-pip
 
-sudo pip install --upgrade pip
+sudo pip3 install FoxDot
+
+sudo pip3 install -U setuptools
+
+sudo pip3 install -U wheel
 
 #SuperCollider
 echo Instalando Supercollider [NECESARIO PARA FOXDOT]
