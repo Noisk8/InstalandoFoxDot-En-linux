@@ -1,6 +1,10 @@
 #!/bin/bash
 
-echo Script para instalar FoxDot en Manjaro y ArchLinux 
+echo Script para instalar FoxDot en ArchLinux 
+
+echo INSTALANDO QJACKCTL 
+
+sudo pacman -S qjackctl
 
 sudo pacman -S python-pip	 
 
