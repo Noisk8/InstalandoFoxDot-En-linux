@@ -32,3 +32,7 @@ echo ELIGE LA OPCION 2 Y PRESIONA ENTER
 yaourt supercollider
 
 
+echo INSERTE Y EJECUTE →→→ Quarks.install("FoxDot") dentro  de Supercollider para terminar la instalación 
+
+
+
