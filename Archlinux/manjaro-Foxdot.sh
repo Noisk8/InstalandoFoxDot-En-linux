@@ -2,6 +2,8 @@
 
 echo Script para instalar FoxDot en Manjaro y ArchLinux 
 
+pacman -S python-pip	 
+
 echo ACTUALIZANDO  pip
 
 sudo pip install --upgrade pip
