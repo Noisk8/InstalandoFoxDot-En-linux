@@ -16,13 +16,6 @@ echo INSTALANDO FOXDOT
 
 sudo pip install FoxDot
 
-git clone https://github.com/Qirky/FoxDot.git
-
-echo SETUP FOXDOT
-
-cd FoxDot
-
-sudo python setup.py install
 
 echo DESCARGANDO SUPERCOLLIDER
 
