@@ -1,6 +1,22 @@
 #!/bin/bash
 
 
+sudo pacman -S --needed base-devel git wget yajl
+
+cd /tmp
+
+git clone https://aur.archlinux.org/package-query.git
+
+cd package-query/
+
+makepkg -si && cd /tmp/
+ 
+git clone https://aur.archlinux.org/yaourt.git
+ 
+cd yaourt/
+
+makepkg -si
+
 echo Script para instalar FoxDot en ArchLinux 
 
 
@@ -47,6 +63,3 @@ yaourt supercollider
 
 
 echo INSERTE Y EJECUTE →→→ Quarks.install("FoxDot") dentro  de Supercollider para terminar la instalación 
-
-
-
