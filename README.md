@@ -83,7 +83,7 @@ Ahora empezara a correr los comandos para poner a funcionar foxdot.
 
 ***
 
-Hecho x Noisk8 2017-2018
+Hecho x Noisk8 2017-2023
 
 Fuentes → 
 
