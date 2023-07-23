@@ -30,7 +30,7 @@ git clone https://github.com/TheNuSan/FoxDot.git
 
 cd FoxDot
 
-python setup.py install
+sudo python setup.py install
 
 
 
@@ -40,7 +40,7 @@ echo Instalando Supercollider NECESARIO PARA FOXDOT
 #DependenciasSuperCollider
 echo Instalando dependencias supercollider
 
-sudo apt install supercollider
+sudo apt install supercollider -y
 
 echo Agregando usuario al grupo audio
 
@@ -49,7 +49,7 @@ sudo adduser $USER audio
 
 echo instalando qjackctl
 
-sudo apt-get install qjackctl
+sudo apt-get install qjackctl -y 
 
 
 echo sigue los pasos en → → → → http://foxdot.org/installation/
