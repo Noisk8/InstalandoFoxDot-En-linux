@@ -56,7 +56,7 @@ git clone https://github.com/TheNuSan/FoxDot.git
 
 cd FoxDot
 
-python setup.py install
+sudo python setup.py install
 
 echo DESCARGANDO SUPERCOLLIDER
 
