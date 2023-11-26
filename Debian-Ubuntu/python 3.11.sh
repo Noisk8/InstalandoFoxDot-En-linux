@@ -8,17 +8,17 @@ echo Instalando pyhton3-tk y git
 
 sudo apt update
 
-sudo apt install git
+sudo apt install git -y
 
-sudo apt install python3
+sudo apt install python3 -y 
 
-sudo apt install python3-tk
+sudo apt install python3-tk -y
 
 sudo apt install python3-setuptools
 
-sudo easy_install pip3
+sudo easy_install pip3 -y
 
-sudo apt-get install python3-pip
+sudo apt-get install python3-pip -y
 
 
 sudo pip3 install -U setuptools
