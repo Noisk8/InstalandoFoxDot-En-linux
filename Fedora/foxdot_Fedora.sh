@@ -14,6 +14,10 @@ cd FoxDot
 echo "configurando FoxDot"
 sudo python setup.py install
 
+
+echo "También instalamos Renardo "
+sudo pip3 install renardo
+
 echo "Instalando SuperCollider"
 sudo dnf install supercollider -y
 
@@ -24,3 +28,5 @@ echo "Reinicia el lenguaje del servidor de superCollider y ejecuta FoxDot.start"
 echo "entra ala carpeta FoxDot"
 
 echo "ejecuta python3 -m FoxDot "
+
+echo "O puedes corres renardo usando el comando python3 -m renardo"
