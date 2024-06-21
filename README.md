@@ -14,7 +14,7 @@ Este script te ayudará a instalar FoxDot en tu sistema Linux. 🐧
 Descargar el scrip 
 
 ~~~
-wget https://github.com/Noisk8/InstalandoFoxDot-En-linux/blob/master/INSTALL_FOXDOT.sh
+wget https://raw.githubusercontent.com/Noisk8/InstalandoFoxDot-En-linux/master/INSTALL_FOXDOT.sh
 ~~~
 
 Dar permisos de ejecucuión 
