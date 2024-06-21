@@ -2,6 +2,9 @@
 ____________________________________________________________________________________
 Este script te ayudará a instalar FoxDot en tu sistema Linux. 🐧
 
+
+
+
 ### ¿Qué hace el script?
 
 1. **Actualiza los paquetes del sistema**: Se asegura de que todos los paquetes estén al día.
