@@ -1,4 +1,4 @@
-# Instalando FoxDot en linux
+# Instalando 🦊 FoxDot 🦊 en linux 🐧
 ____________________________________________________________________________________
 Este script te ayudará a instalar FoxDot en tu sistema Linux. 🐧
 
@@ -20,10 +20,7 @@ Este script te ayudará a instalar FoxDot en tu sistema Linux. 🐧
 ¡Y eso es todo! Ahora deberías tener FoxDot funcionando en tu sistema Linux. 🎶🦊
 ***
 
-## Guía de utilización 
-
-
-
+## Cómo usar el script? 
 
 ~~~
 wget https://github.com/Noisk8/InstalandoFoxDot-En-linux/blob/master/INSTALL_FOXDOT.sh
@@ -46,33 +43,11 @@ se instala la versión 3.6 con la que es imposible que tidal funcione, si este e
 [Supercollider script](https://noiskate.hotglue.me/?Sc/)
 
 ***
-
-
-***
-
- ## Para iniciar Foxdot deben de tener en cuenta los siguientes pasos...
+ ### Iniciar  Jack desde terminal ?
  
- ***
- ### 1 Iniciar el servidor de jack.
- 
- > jackd -d alsa 
- 
- ***
- ### 2 Abrir Supercollider y ejecutamos la siguiente linea 
- 
- > FoxDot.start
- 
- ***
- 
-### 3 Entramos a la carpeta de Foxdot 
- 
- > cd FoxDot/
- 
- Estando allí ejecutamos el siguiente comando para arir el interprete 
- 
- > python -m FoxDot
-
-***
+~~~
+jackd -d alsa 
+~~~
 
 Hecho x Noisk8 2017-2024
 
