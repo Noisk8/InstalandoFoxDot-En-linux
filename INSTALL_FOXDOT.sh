@@ -13,19 +13,12 @@ case $distro in
         sudo dnf install python3-tkinter -y
         sudo dnf install python3-setuptools -y
 
-        echo "DESCARGANDO FOXDOT 🦊 🦊 🦊"
-        git clone https://github.com/TheNuSan/FoxDot.git
-        cd FoxDot
-
-        echo "CONFIGURANDO FOXDOT ⚙️⚙️⚙️ 🦊 🦊 🦊"
-        sudo python setup.py install
+        echo "INSTALANDO SUPERCOLLIDER 🎹🎹🎹"
+        sudo dnf install supercollider -y
 
         echo "INSTALANDO RENARDO 🦊 🦊 🦊"
         echo ""
         sudo pip3 install renardo
-
-        echo "INSTALANDO SUPERCOLLIDER 🎹🎹🎹"
-        sudo dnf install supercollider -y
 
         echo "PARA TERMINAR LA INSTALACIÓN ⚙️⚙️⚙️"
         echo ""
@@ -63,7 +56,7 @@ case $distro in
 
         echo "INSTALANDO PYTHON 🐍 🐍 🐍"
         echo ""
-        sudo apt install python3 -y 
+        sudo apt install python3 -y
         sudo apt install python3-tk -y
         sudo apt install python3-setuptools
         sudo easy_install pip3 -y
@@ -92,7 +85,7 @@ case $distro in
 
         echo "INSTALANDO QJACKCTL 🎤 🎤 🎤"
         echo ""
-        sudo apt-get install qjackctl -y 
+        sudo apt-get install qjackctl -y
 
         echo ""
         echo "PARA TERMINAR LA INSTALACIÓN ⚙️⚙️⚙️"
@@ -139,7 +132,7 @@ case $distro in
         sudo pacman -S qjackctl
 
         echo "INSTALANDO PYTHON-PIP 🐍 🐍 🐍"
-        sudo pacman -S python-pip	 
+        sudo pacman -S python-pip
         echo "ACTUALIZANDO  pip 🐍 🐍 🐍"
         pip install --upgrade pip
         sudo pacman -S tk
