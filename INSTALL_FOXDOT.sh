@@ -84,24 +84,9 @@ case $distro in
         echo ""
 
         echo "⚙️ ABRE SUPERCOLLIDER"
-        echo ""
 
-        echo "🛹 PEGA 'https://github.com/Qirky/FoxDotQuark.git' Y EJECUTA PARA INSTALAR LOS SAMPLES Y SINTESIS DE FOXDOT"
-        echo ""
 
-        echo "🛹 REINICIA EL LENGUAJE DE COMPILACIÓN Y EJECUTA FoxDot.start"
-        echo ""
-
-        echo "🛹 ENTRA ALA CARPETA DE FoxDot"
-        echo ""
-
-        echo "🛹 EJECUTA python3 -m FoxDot"
-        echo ""
-
-        echo "🛹 RENARDO RENARDO RENARDO"
-        echo ""
-
-        echo "🛹 PARA USAR RENARDO"
+        echo "🛹 USAR RENARDO"
         echo ""
 
         echo "🛹 python3 -m renardo"
@@ -146,12 +131,7 @@ case $distro in
 
         echo "PARA TERMINAR LA INSTALACIÓN ⚙️⚙️⚙️"
         echo "🛹 ABRE SUPERCOLLIDER"
-        echo "🛹 PEGA 'https://github.com/Qirky/FoxDotQuark.git' Y EJECUTA PARA INSTALAR LOS SAMPLES Y SINTESIS DE FOXDOT"
-        echo "🛹 REINICIA EL LENGUAJE DE COMPILACIÓN Y EJECUTA FoxDot.start"
-        echo "🛹 ENTRA ALA CARPETA DE FoxDot"
-        echo "🛹 EJECUTA python3 -m FoxDot"
-        echo "🛹 RENARDO RENARDO RENARDO"
-        echo "🛹 PARA USAR RENARDO"
+        echo "🛹 ABRE USAR RENARDO"
         echo "🛹 python3 -m renardo"
         ;;
 esac
