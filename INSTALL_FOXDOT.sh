@@ -65,14 +65,6 @@ case $distro in
         sudo pip3 install -U setuptools
         sudo pip3 install -U wheel
 
-        echo "INSTALANDO FOXDOT 🦊 🦊 🦊"
-        echo ""
-
-        echo "CONFIGURANDO FOXDOT ⚙️⚙️⚙️ 🦊 🦊 🦊"
-        echo ""
-        git clone https://github.com/TheNuSan/FoxDot.git
-        cd FoxDot
-        sudo python setup.py install
 
         echo "INSTALANDO RENARDO 🦊 🦊 🦊"
         echo ""
