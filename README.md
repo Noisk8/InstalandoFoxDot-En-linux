@@ -1,4 +1,4 @@
-# Instalando 🦊 FoxDot 🦊 en linux 🐧
+# Instalando 🦊 Renardo / FoxDot 🦊 en linux 🐧
 Este script te ayudará a instalar FoxDot en tu sistema Linux. 🐧
 
 ### ¿Qué hace el script?
